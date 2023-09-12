@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 0 10px;
+    background: linear-gradient(to bottom, rgba(19, 123, 208, 0.786), white)
+      no-repeat center center / contain;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: hotpink;
+    color: #fff;
+    max-width: 450px;
+    width: 100%;
+    font-size: 1.2rem;
+    height: 80vh;
+    box-shadow: 10px 10px 9px -10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .slackName {
+    font-size: 2.5rem;
+  }
+  
+  .slackImage {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 7px solid #e0e0e0;
+    box-shadow: 10px 10px 9px -10px rgba(255, 255, 255, 0.2);
+  }
+  
+  #currentDay {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+  
+  #currentTime {
+    font-weight: 500;
+  }
+  
+  #utcTime {
+    width: 200px;
+    padding-top: 10px;
+  }
+  
+  #track {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+  
+  a {
+    font-size: 18px;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  .github {
+    width: 50%;
+    padding: 10px;
+    background-color: #de5c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
